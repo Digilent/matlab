@@ -7,7 +7,7 @@
     <param.summary>Data Acquisition Toolbox Support Package for Digilent AD Devices</param.summary>
     <param.description>Acquire and analyze data from Digilent AD, AD2, AD Studio, ADP3250, ADP3450</param.description>
     <param.screenshot>${PROJECT_ROOT}\usb-scopes.png</param.screenshot>
-    <param.version>0.7</param.version>
+    <param.version>0.8</param.version>
     <param.output>${PROJECT_ROOT}\digilent.mltbx</param.output>
     <param.products.name>
       <item>MATLAB</item>
