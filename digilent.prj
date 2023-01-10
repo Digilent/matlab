@@ -4,8 +4,8 @@
     <param.authnamewatermark>Digilent</param.authnamewatermark>
     <param.email>software@digilent.com</param.email>
     <param.company>Digilent Inc.</param.company>
-    <param.summary>Data Acquisition Toolbox Support Package for Digilent AD Devices</param.summary>
-    <param.description>Acquire and analyze data from Digilent AD, AD2, AD Studio, ADP3250, ADP3450</param.description>
+    <param.summary>Data Acquisition Toolbox Support Package for Digilent Devices</param.summary>
+    <param.description>Acquire and analyze data from Digilent Analog Discovery, Analog Discovery 2, Analog Discovery Studio, Analog Discovery Pro 3250, Analog Discovery Pro 3450</param.description>
     <param.screenshot>${PROJECT_ROOT}\usb-scopes.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.output>${PROJECT_ROOT}\digilent.mltbx</param.output>
@@ -73,7 +73,6 @@
     <param.additional.sw.mac.url />
     <param.additional.sw.linux.url />
     <unset>
-      <param.version />
       <param.output />
       <param.platforms />
       <param.exclude.pcodedmfiles />
