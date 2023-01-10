@@ -7,7 +7,7 @@ Featuring Analog data streaming, Digital I/O control, and configurable Power Sup
 Get started today with the Digilent Toolbox and the latest version of WaveForms!
 
 ## Requires
-For Digilen toolbox to properly work the following software are required:
+For Digilent toolbox to properly work the following software are required:
 
 1. DAQ Toolbox
 2. [Digilent Wavforms](https://digilent.com/shop/software/digilent-waveforms/download)
