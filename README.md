@@ -10,4 +10,4 @@ Get started today with the Digilent Toolbox and the latest version of WaveForms!
 For Digilent toolbox to properly work the following software are required:
 
 1. DAQ Toolbox
-2. [Digilent Wavforms](https://digilent.com/shop/software/digilent-waveforms/download)
+2. [Digilent Waveforms](https://digilent.com/shop/software/digilent-waveforms/download)
