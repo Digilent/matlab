@@ -9,5 +9,6 @@ Get started today with the Digilent Toolbox and the latest version of WaveForms!
 ## Requires
 For Digilent toolbox to properly work the following software are required:
 
-1. DAQ Toolbox
-2. [Digilent Waveforms](https://digilent.com/shop/software/digilent-waveforms/download)
+1. [MathWorks MATLAB](https://www.mathworks.com/products/matlab.html)
+2. [MathWorks Data Aquisiton Toolbox](https://www.mathworks.com/products/data-acquisition.html)
+3. [Digilent Waveforms](https://digilent.com/shop/software/digilent-waveforms/download)
