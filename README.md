@@ -25,6 +25,6 @@ When transitioning to this toolbox some minor changes to device and channel name
 
 In this repository there are some examples:
 
-[Getting Started Acquiring Data](https://www.mathworks.com/help/daq/getting-started-acquiring-data-with-digilent-analog-discovery.html) -> digilent/examples/GSAcquiringData.mlx
-[Getting Started Generating Data](https://www.mathworks.com/help/daq/getting-started-generating-data-with-digilent-analog-discovery.html) -> digilent/examples/GSGeneratingData.mlx
-[Acquiring and Generating Data at the Same Time](https://www.mathworks.com/help/daq/acquiring-and-generating-data-at-the-same-time-with-digilent-analog-discovery.html) -> digilent/examples/GSAcquiringAndGenerateData.mlx
+[Getting Started Acquiring Data](https://www.mathworks.com/help/daq/getting-started-acquiring-data-with-digilent-analog-discovery.html) -> digilent/examples/GSAcquiringData.mlx  
+[Getting Started Generating Data](https://www.mathworks.com/help/daq/getting-started-generating-data-with-digilent-analog-discovery.html) -> digilent/examples/GSGeneratingData.mlx  
+[Acquiring and Generating Data at the Same Time](https://www.mathworks.com/help/daq/acquiring-and-generating-data-at-the-same-time-with-digilent-analog-discovery.html) -> digilent/examples/GSAcquiringAndGenerateData.mlx  
