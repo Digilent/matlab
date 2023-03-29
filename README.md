@@ -14,3 +14,17 @@ For the Digilent toolbox to work properly, the following software is required:
 
 1. [Data Aquisiton Toolbox](https://www.mathworks.com/products/data-acquisition.html)
 2. [Digilent Waveforms](https://digilent.com/shop/software/digilent-waveforms/download)
+
+## Transition Your Code from Session to DataAcquisition Interface
+
+To transition your code this [transition table](https://www.mathworks.com/help/daq/transition-your-code-from-session-to-dataacquisition-interface.html) should help.
+
+## Transitioning from **Data Acquisition Toolbox Support Package for Digilent Analog Discovery Hardware** to this toolbox.
+
+When transitioning to this toolbox some minor changes to device and channel names are required.
+
+In this repository there are some examples:
+
+[Getting Started Acquiring Data](https://www.mathworks.com/help/daq/getting-started-acquiring-data-with-digilent-analog-discovery.html) -> digilent/examples/GSAcquiringData.mlx
+[Getting Started Generating Data](https://www.mathworks.com/help/daq/getting-started-generating-data-with-digilent-analog-discovery.html) -> digilent/examples/GSGeneratingData.mlx
+[Acquiring and Generating Data at the Same Time](https://www.mathworks.com/help/daq/acquiring-and-generating-data-at-the-same-time-with-digilent-analog-discovery.html) -> digilent/examples/GSAcquiringAndGenerateData.mlx
