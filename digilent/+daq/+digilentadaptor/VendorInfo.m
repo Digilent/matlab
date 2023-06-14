@@ -2,9 +2,7 @@ classdef (Hidden) VendorInfo < daq.sdk.VendorInfo
     %VendorInfo DigilentAdaptor driver
     %
     %    This class represents a DigilentAdaptor-based driver. 
-    
-    % Copyright 2016 The MathWorks, Inc.
-		
+
     %% Lifetime    
     methods
         function obj = VendorInfo()
