@@ -7,7 +7,7 @@
     <param.summary>Data Acquisition Toolbox Support Package for Digilent Devices</param.summary>
     <param.description>Acquire and analyze data from Digilent Analog Discovery, Analog Discovery 2, Analog Discovery 3, Analog Discovery Studio, Analog Discovery Pro 3250, Analog Discovery Pro 3450</param.description>
     <param.screenshot>${PROJECT_ROOT}\usb-scopes.png</param.screenshot>
-    <param.version>1.4</param.version>
+    <param.version>1.4.1</param.version>
     <param.output>${PROJECT_ROOT}\digilent.mltbx</param.output>
     <param.products.name>
       <item>MATLAB</item>
@@ -18,8 +18,8 @@
       <item>47</item>
     </param.products.id>
     <param.products.version>
-      <item>9.13</item>
-      <item>4.6</item>
+      <item>9.14</item>
+      <item>4.7</item>
     </param.products.version>
     <param.platforms />
     <param.guid>61b4e7f1-3f4f-41de-92b2-93e4332332c5</param.guid>
@@ -112,7 +112,7 @@
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2022b</root>
+      <root>C:\Program Files\MATLAB\R2023a</root>
       <toolboxes />
     </matlab>
     <platform>
