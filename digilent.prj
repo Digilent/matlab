@@ -1,14 +1,14 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
   <configuration build-checksum="2178815629" file="C:\work\projects\matlab-release\digilent.prj" location="C:\work\projects\matlab-release" name="digilent" target="target.toolbox" target-name="Package Toolbox">
-    <param.appname>digilent</param.appname>
+    <param.appname>Digilent Toolbox</param.appname>
     <param.authnamewatermark>Digilent</param.authnamewatermark>
     <param.email>software@digilent.com</param.email>
     <param.company>Digilent Inc.</param.company>
-    <param.summary>Data Acquisition Toolbox Support Package for Digilent Devices</param.summary>
+    <param.summary>Analyze and acquire data from Digilent AD2, AD3, AD Studio, ADP3450 and more</param.summary>
     <param.description>Acquire and analyze data from Digilent Analog Discovery, Analog Discovery 2, Analog Discovery 3, Analog Discovery Studio, Analog Discovery Pro 3250, Analog Discovery Pro 3450</param.description>
     <param.screenshot>${PROJECT_ROOT}\usb-scopes.png</param.screenshot>
     <param.version>1.4.2</param.version>
-    <param.output>${PROJECT_ROOT}\digilent.mltbx</param.output>
+    <param.output>${PROJECT_ROOT}\Digilent Toolbox.mltbx</param.output>
     <param.products.name>
       <item>MATLAB</item>
       <item>Data Acquisition Toolbox</item>
@@ -73,6 +73,9 @@
     <param.additional.sw.mac.url />
     <param.additional.sw.linux.url />
     <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
       <param.output />
       <param.platforms />
       <param.exclude.pcodedmfiles />
@@ -108,7 +111,7 @@
     <fileset.depfun.excluded />
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}" name="digilent.mltbx" optional="false">C:\work\projects\matlab-release\digilent.mltbx</file>
+      <file location="${PROJECT_ROOT}" name="Digilent Toolbox.mltbx" optional="false">C:\work\projects\matlab-release\Digilent Toolbox.mltbx</file>
     </build-deliverables>
     <workflow />
     <matlab>
