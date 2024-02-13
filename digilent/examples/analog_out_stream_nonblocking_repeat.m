@@ -4,7 +4,7 @@ dq = daq("digilent");
 addoutput(dq, "AD2_0", "ao0" ,'Voltage');
 addoutput(dq, "AD2_0", "ao1" ,'Voltage');
 
-rate = 1000;
+rate = 1000; % 1KHz == 1e8/1e5
 dq.Rate = rate;
 
 totalduration = 1;

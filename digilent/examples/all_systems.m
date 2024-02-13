@@ -38,9 +38,9 @@ for i = 8:15
 end
 
 % Configure rate of subsystems (DIO is fixed at 100MHz)
-AI.Rate = 10000  % 10KHz
-AO.Rate = 1000   % 1KHz
-VP.Rate = 10     % 10Hz
+AI.Rate = 10000  % 10KHz == 1e8/1e4
+AO.Rate = 1000   % 1KHz == 1e8/1e5
+VP.Rate = 10     % 10Hz == 1e8/1e7
 
 global data;
 data = [];

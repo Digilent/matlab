@@ -8,8 +8,10 @@ addoutput(dq2, "AD2_0", "ao0" ,'Voltage');
 
 % Background read for 3 seconds
 duration = 3;
-rate = 10000;
-dq.Rate = rate;
+systemRate = 1e8; %100Mhz
+rDiv = uint32(10000) % Rate divisor is expected to be integer
+rate = systemRate/rDiv;
+dq.Rate = rate %10KHz
 dq2.Rate = rate;
 n = duration * rate;
 

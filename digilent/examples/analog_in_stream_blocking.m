@@ -2,7 +2,10 @@ daqreset;
 dq = daq("digilent");
 addinput(dq, "AD2_0", "ai0" ,'Voltage');
 addinput(dq, "AD2_0", "ai1" ,'Voltage');
-dq.Rate = 100000000; %max frequency
+systemRate = 1e8; %100Mhz
+rDiv = uint32(1) % Rate divisor is expected to be integer
+rate = systemRate/rDiv;
+dq.Rate = rate; %max frequency
 
 data = read(dq, 1000); %blocking statement
 figure(1);
