@@ -1,5 +1,3 @@
-<!-- Begin NI SECURITY.md V1.0 -->
-
 # Security
 
 NI views the security of our software products as an important part of our commitment to our users.  This includes source code repositories managed through the [Digilent](https://github.com/Digilent) GitHub organization.
@@ -15,5 +13,3 @@ Instead, please report them by sending an email to [security@ni.com](mailto:secu
 ## Learn More
 
 To learn more about NI Security, please see [https://ni.com/security](https://ni.com/security)
-
-<!-- End NI SECURITY.md -->
